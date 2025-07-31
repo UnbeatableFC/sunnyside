@@ -30,8 +30,8 @@ export function Middle() {
           <img
             src={
               isMobile
-                ? "/src/assets/mobile/image-transform.jpg"
-                : "/src/assets/desktop/image-transform.jpg"
+                ? "/mobile/image-transform.jpg"
+                : "/desktop/image-transform.jpg"
             }
             alt="transform"
             className="h-120 w-full"
@@ -45,8 +45,8 @@ export function Middle() {
           <img
             src={
               isMobile
-                ? "/src/assets/mobile/image-stand-out.jpg"
-                : "/src/assets/desktop/image-stand-out.jpg"
+                ? "/mobile/image-stand-out.jpg"
+                : "/desktop/image-stand-out.jpg"
             }
             alt="stand-out"
             className="h-120 w-full"
@@ -79,8 +79,8 @@ export function Middle() {
           className={cn(
             "bg-cover bg-no-repeat h-130 flex-1 items-center justify-center",
             isMobile
-              ? "bg-[url(/src/assets/mobile/image-graphic-design.jpg)]"
-              : "bg-[url(/src/assets/desktop/image-graphic-design.jpg)]"
+              ? "bg-[url(/mobile/image-graphic-design.jpg)]"
+              : "bg-[url(/desktop/image-graphic-design.jpg)]"
           )}
         >
           <div className="md:mt-88 mt-96 pb-8 md:pb-0 flex flex-col gap-y-4 max-w-[300px] mx-auto text-center ">
@@ -99,8 +99,8 @@ export function Middle() {
           className={cn(
             "bg-cover bg-no-repeat h-130 flex-1 items-center justify-center",
             isMobile
-              ? "bg-[url(/src/assets/mobile/image-photography.jpg)]"
-              : "bg-[url(/src/assets/desktop/image-photography.jpg)]"
+              ? "bg-[url(/mobile/image-photography.jpg)]"
+              : "bg-[url(/desktop/image-photography.jpg)]"
           )}
         >
           <div className="md:mt-88 mt-96 pb-8 md:pb-0 flex flex-col gap-y-4 max-w-[300px] mx-auto text-center ">

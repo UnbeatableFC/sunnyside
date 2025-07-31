@@ -9,7 +9,7 @@ export function Footer() {
 
       <div>
         <img
-            src="/src/assets/logo2.svg"
+            src="/logo2.svg"
             alt="logo"
             className="h-8 w-18 md:w-32"
           />

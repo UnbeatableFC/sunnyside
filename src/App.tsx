@@ -1,17 +1,17 @@
-// import { Carousel } from "./components/tabs/Carousel";
-// import { Footer } from "./components/tabs/Footer";
+import { Carousel } from "./components/tabs/Carousel";
+import { Footer } from "./components/tabs/Footer";
 import { Hero } from "./components/tabs/Hero";
-// import { Middle } from "./components/tabs/Middle";
-// import { Testimonials } from "./components/tabs/Testimonials";
+import { Middle } from "./components/tabs/Middle";
+import { Testimonials } from "./components/tabs/Testimonials";
 
 function App() {
   return (
     <div>
       <Hero />
-      {/* <Middle />
+      <Middle />
       <Testimonials />
       <Carousel />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

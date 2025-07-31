@@ -10,8 +10,8 @@ export function Carousel() {
           <img
             src={
               !isMobile
-                ? "/src/assets/desktop/image-gallery-milkbottles.jpg"
-                : "/src/assets/mobile/image-gallery-milkbottles.jpg"
+                ? "/desktop/image-gallery-milkbottles.jpg"
+                : "/mobile/image-gallery-milkbottles.jpg"
             }
             alt="milk-bottle"
             className="object-contain w-full"
@@ -21,8 +21,8 @@ export function Carousel() {
           <img
             src={
               !isMobile
-                ? "/src/assets/desktop/image-gallery-orange.jpg"
-                : "/src/assets/mobile/image-gallery-orange.jpg"
+                ? "/desktop/image-gallery-orange.jpg"
+                : "/mobile/image-gallery-orange.jpg"
             }
             alt="orange"
             className=" object-cover"
@@ -36,8 +36,8 @@ export function Carousel() {
           <img
             src={
               !isMobile
-                ? "/src/assets/desktop/image-gallery-cone.jpg"
-                : "/src/assets/mobile/image-gallery-cone.jpg"
+                ? "/desktop/image-gallery-cone.jpg"
+                : "/mobile/image-gallery-cone.jpg"
             }
             alt="cone"
             className=" object-cover"
@@ -48,8 +48,8 @@ export function Carousel() {
           <img
             src={
               !isMobile
-                ? "/src/assets/desktop/image-gallery-sugarcubes.jpg"
-                : "/src/assets/mobile/image-gallery-sugar-cubes.jpg"
+                ? "/desktop/image-gallery-sugarcubes.jpg"
+                : "/mobile/image-gallery-sugar-cubes.jpg"
             }
             alt="sugar-cubes"
             className=" object-cover"
