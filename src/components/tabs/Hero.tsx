@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <div
       className={cn(
-        "h-screen bg-cover bg-center bg-no-repeat relative",
+        "h-[540px] md:h-screen bg-cover bg-center bg-no-repeat relative",
         isMobile ? mobile : desktop
       )}
     >
