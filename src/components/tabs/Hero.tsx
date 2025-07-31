@@ -39,7 +39,7 @@ export function Hero() {
 
                 <PopoverContent
                   align="center"
-                  className="flex flex-col items-center fraunces-700 justify-center space-y-6 py-8 mt-5"
+                  className="flex flex-col items-center fraunces-700 justify-center space-y-6 py-8 mt-5 mr-11"
                 >
                   <Button
                     variant="ghost"
