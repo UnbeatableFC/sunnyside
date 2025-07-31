@@ -38,8 +38,8 @@ export function Hero() {
                 </PopoverTrigger>
 
                 <PopoverContent
-                  align="center" // may help horizontal centering depending on library
-                  className=" flex flex-col items-center fraunces-700 justify-center space-y-6 py-8 mt-5 mx-20"
+                  align="center"
+                  className="flex flex-col items-center fraunces-700 justify-center space-y-6 py-8 mt-5"
                 >
                   <Button
                     variant="ghost"
@@ -94,19 +94,19 @@ export function Hero() {
       </nav>
 
       {/* Text */}
-      <div className="relative pt-12 md:pt-20 ">
+      <div className="relative pt-12 md:pt-20">
         <h1 className="text-center text-5xl md:leading-0 md:text-6xl text-white tracking-wider fraunces-900">
           WE ARE CREATIVES
         </h1>
-      </div>
 
-      {/* Arrow */}
-      <div className="absolute bottom-35 right-47 md:top-65 md:right-152 z-10 justify-center items-center">
-        <img
-          src="/icon-arrow-down.svg"
-          alt="arrow"
-          className="md:w-10 md:h-32"
-        />
+        {/* Arrow */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 -bottom-40 md:bottom-auto md:top-full md:mt-12 lg:mt-22 z-10 flex justify-center items-center">
+          <img
+            src="/icon-arrow-down.svg"
+            alt="arrow"
+            className="md:w-10 md:h-32"
+          />
+        </div>
       </div>
     </div>
   );
