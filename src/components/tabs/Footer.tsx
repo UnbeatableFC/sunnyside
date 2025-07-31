@@ -2,19 +2,36 @@ import { Button } from "../ui/button";
 
 export function Footer() {
   return (
-    <div className="bg-green-400/40 flex flex-col gap-5 justify-center items-center py-10">
-      <h1 className="text-center text-5xl sm:text-3xl font-black text-green-900">
+    <div className="bg-green-400/40 flex flex-col gap-5 justify-center items-center py-10 md:py-20">
+      {/* <h1 className="text-center text-5xl sm:text-3xl fraunces-700 font-black text-green-900">
         sunnyside
-      </h1>
+      </h1> */}
+
+      <div>
+        <img
+            src="/src/assets/logo2.svg"
+            alt="logo"
+            className="h-8 w-18 md:w-32"
+          />
+      </div>
 
       <div className="flex items-center gap-4 pb-12 ">
-        <Button variant={"link"} className="text-green-700 sm:text-sm text-xl">
+        <Button
+          variant={"link"}
+          className="text-green-700 sm:text-sm text-xl"
+        >
           About
         </Button>
-        <Button variant={"link"} className="text-green-700 sm:text-sm text-xl">
+        <Button
+          variant={"link"}
+          className="text-green-700 sm:text-sm text-xl"
+        >
           Services
         </Button>
-        <Button variant={"link"} className="text-green-700 sm:text-sm text-xl">
+        <Button
+          variant={"link"}
+          className="text-green-700 sm:text-sm text-xl"
+        >
           Project
         </Button>
       </div>

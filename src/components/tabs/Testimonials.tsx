@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 export function Testimonials() {
   return (
     <div className="px-25 py-36">
-      <div className="text-center tracking-[8px] text-xl font-bold text-muted-foreground/50">
+      <div className="text-center fraunces-700 tracking-[8px] text-xl font-bold text-muted-foreground/50">
         CLIENT TESTIMONIALS
       </div>
 
@@ -20,14 +20,14 @@ export function Testimonials() {
             </Avatar>
 
             <CardContent>
-              <p className="text-center text-muted-foreground text-sm font-semibold leading-6">
+              <p className="text-center barlow-semibold text-muted-foreground text-sm font-semibold leading-6">
                 {sayings}
               </p>
             </CardContent>
 
             <CardFooter className="flex flex-col">
-              <p className="text-lg font-black">{name}</p>
-              <p className="text-xs text-muted-foreground">
+              <p className="text-lg font-black fraunces-900">{name}</p>
+              <p className="text-xs barlow-semibold text-gray-600/40">
                 {position}
               </p>
             </CardFooter>

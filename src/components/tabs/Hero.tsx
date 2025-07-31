@@ -42,7 +42,7 @@ export function Hero() {
 
                 <PopoverContent
                   align="center" // may help horizontal centering depending on library
-                  className=" flex flex-col items-center justify-center space-y-6 py-8 mt-5 mx-20"
+                  className=" flex flex-col items-center fraunces-700 justify-center space-y-6 py-8 mt-5 mx-20"
                 >
                   <Button
                     variant="ghost"
@@ -69,26 +69,26 @@ export function Hero() {
               </Popover>
             </>
           ) : (
-            <div className="flex items-center gap-7">
+            <div className="flex items-center gap-6">
               <Button
                 variant={"ghost"}
-                className="text-white text-sm rounded-2xl"
+                className="text-white text-base barlow-semibold rounded-2xl"
               >
                 About
               </Button>
               <Button
                 variant={"ghost"}
-                className="text-white text-sm rounded-2xl"
+                className="text-white text-base barlow-semibold rounded-2xl"
               >
                 Services
               </Button>
               <Button
                 variant={"ghost"}
-                className="text-white text-sm rounded-2xl"
+                className="text-white text-base barlow-semibold rounded-2xl"
               >
                 Project
               </Button>
-              <Button className="bg-white px-7 py-5 hover:bg-blue-100/60 cursor-pointer hover:text-white transition-all duration-200 text-black uppercase font-bold rounded-2xl">
+              <Button className="bg-white px-7 py-5 hover:bg-blue-100/60 cursor-pointer hover:text-white transition-all duration-200 text-black uppercase font-bold rounded-2xl fraunces-700">
                 Contact
               </Button>
             </div>
@@ -97,8 +97,8 @@ export function Hero() {
       </nav>
 
       {/* Text */}
-      <div className="relative pt-12 ">
-        <h1 className="text-center text-6xl md:leading-0 md:text-7xl text-white font-bold tracking-wider">
+      <div className="relative pt-12 md:pt-20 ">
+        <h1 className="text-center text-5xl md:leading-0 md:text-6xl text-white tracking-wider fraunces-900">
           WE ARE CREATIVES
         </h1>
       </div>

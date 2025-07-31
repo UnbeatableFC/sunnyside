@@ -171,4 +171,25 @@
     transition: all;
     transition-duration: 0.5s;
   }
+
+  .barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .fraunces-700 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "SOFT" 0, "WONK" 0;
+  }
+  .fraunces-900 {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "SOFT" 0, "WONK" 0;
+  }
 }

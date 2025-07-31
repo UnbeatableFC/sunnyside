@@ -9,10 +9,10 @@ export function Middle() {
       <div className="flex flex-col-reverse md:flex-row">
         <div className="items-center justify-center flex flex-col flex-1">
           <div className="max-w-[370px] flex p-10 mx-10 md:p-0 md:mx-0 items-center md:items-start justify-center text-center md:text-start flex-col gap-y-6">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-4xl fraunces-900 font-bold">
               Transform Your <br /> Brand
             </h2>
-            <p className="text-sm text-muted-foreground leading-6 font-bold">
+            <p className="text-sm barlow-semibold text-muted-foreground leading-6 font-bold">
               We are a full-service creative agency specializing in
               helping brands grow fast. Engage your clients through
               compelling visuals that do most of the marketing for
@@ -20,7 +20,7 @@ export function Middle() {
             </p>
             <a
               href="#"
-              className="uppercase font-bold tracking-wide rounded-yellow-underline w-fit"
+              className="uppercase font-bold tracking-wide fraunces-700 rounded-yellow-underline w-fit"
             >
               Learn More
             </a>
@@ -55,17 +55,17 @@ export function Middle() {
 
         <div className="items-center justify-center flex flex-col flex-1">
           <div className="max-w-[370px] flex flex-col p-10 mx-8 items-center md:items-start md:p-0 md:mx-0 gap-y-6 text-center md:text-start">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-4xl fraunces-900 font-bold">
               Stand out to the right audience
             </h2>
-            <p className="text-sm text-muted-foreground leading-6 font-bold">
+            <p className="text-sm barlow-semibold text-muted-foreground leading-6 font-bold">
               Using a collaborative formula of designers, researchers,
               photographers, videographers, and copywriters, we’ll
               build and extend your brand in digital places.
             </p>
             <a
               href="#"
-              className="uppercase font-bold tracking-wide rounded-pink-underline w-fit"
+              className="uppercase font-bold tracking-wide fraunces-700 rounded-pink-underline w-fit"
             >
               Learn More
             </a>
@@ -84,10 +84,10 @@ export function Middle() {
           )}
         >
           <div className="md:mt-88 mt-96 pb-8 md:pb-0 flex flex-col gap-y-4 max-w-[300px] mx-auto text-center ">
-            <h2 className="text-green-900 text-3xl font-bold">
+            <h2 className="text-green-800 fraunces-700 text-3xl font-bold">
               Graphic design
             </h2>
-            <p className="text-sm font-semibold text-green-800/60">
+            <p className="text-sm font-semibold barlow-semibold text-green-800/60">
               Great design makes you memorable. We deliver artwork
               that underscores your brand message and captures
               potential clients’ attention.
@@ -104,10 +104,10 @@ export function Middle() {
           )}
         >
           <div className="md:mt-88 mt-96 pb-8 md:pb-0 flex flex-col gap-y-4 max-w-[300px] mx-auto text-center ">
-            <h2 className="text-blue-800 text-3xl font-bold">
+            <h2 className="text-blue-800 fraunces-700 text-3xl font-bold">
               Photography
             </h2>
-            <p className="text-sm font-semibold text-blue-800/60">
+            <p className="text-sm font-semibold barlow-semibold text-blue-800/60">
               Increase your credibility by getting the most stunning,
               high-quality photos that improve your business image.
             </p>
