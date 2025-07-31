@@ -22,7 +22,7 @@ export function Hero() {
       <nav className="flex relative items-center justify-between py-6 px-10 mx-auto">
         <div>
           <img
-            src="/src/assets/logo.svg"
+            src="/assets/logo.svg"
             alt="logo"
             className="h-8 w-18 md:w-28"
           />
