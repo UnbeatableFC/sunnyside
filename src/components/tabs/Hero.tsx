@@ -9,8 +9,8 @@ import {
 
 export function Hero() {
   const isMobile = useIsMobile();
-  const mobile = "bg-[url(/src/assets/mobile/image-header.jpg)]";
-  const desktop = "bg-[url(/src/assets/desktop/image-header.jpg)]";
+  const mobile = "bg-[url(/mobile/image-header.jpg)]";
+  const desktop = "bg-[url(/desktop/image-header.jpg)]";
 
   return (
     <div
@@ -22,7 +22,7 @@ export function Hero() {
       <nav className="flex relative items-center justify-between py-6 px-10 mx-auto">
         <div>
           <img
-            src="/assets/logo.svg"
+            src="/logo.svg"
             alt="logo"
             className="h-8 w-18 md:w-28"
           />
@@ -33,10 +33,7 @@ export function Hero() {
               <Popover>
                 <PopoverTrigger>
                   <button aria-label="Open menu">
-                    <img
-                      src="/src/assets/icon-hamburger.svg"
-                      alt="Menu icon"
-                    />
+                    <img src="/icon-hamburger.svg" alt="Menu icon" />
                   </button>
                 </PopoverTrigger>
 
@@ -106,7 +103,7 @@ export function Hero() {
       {/* Arrow */}
       <div className="absolute bottom-35 right-47 md:top-65 md:right-152 z-10 justify-center items-center">
         <img
-          src="/src/assets/icon-arrow-down.svg"
+          src="/icon-arrow-down.svg"
           alt="arrow"
           className="md:w-10 md:h-32"
         />
